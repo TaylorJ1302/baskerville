@@ -22,5 +22,11 @@ section, header, footer {
 
 /*-- Styling Typography --*/
 
-h1, h2 {
-    color: #3774e7fd; 
+h1, h2, blockquote {
+    color: #a637e7fd; 
+}
+
+p, blockquote {
+    margin-bottom: 1.5rem;
+    line-height: 1.4
+}
