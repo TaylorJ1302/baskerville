@@ -1,8 +1,26 @@
 /*-- CSS Reset --*/
 *{
     padding: 0;
-    marggin: 0;
+    margin: 0;
     font-size: 100%;
     font-weight: normal;
     line-height: 1em;
 }
+
+body {
+    background: #f7f7f7;
+    color: #333; 
+
+
+
+
+section, header, footer {
+    width: 80%;
+    max-width: 700px;
+    margin: auto; 
+}
+
+/*-- Styling Typography --*/
+
+h1, h2 {
+    color: #3774e7fd; 
