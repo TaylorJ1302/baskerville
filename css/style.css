@@ -14,7 +14,7 @@ body {
 
 
 
-section, header, footer {
+section, header {
     width: 80%;
     max-width: 700px;
     margin: auto; 
@@ -23,7 +23,7 @@ section, header, footer {
 /*-- Styling Typography --*/
 
 h1, h2, blockquote {
-    color: #a637e7fd; 
+    color: #3751e7fd; 
 }
 
 p, blockquote {
@@ -54,11 +54,59 @@ cite {
 
 /*-- Styling Links --*/
 a{
-    colour: #a637e7fd;
+    colour: #3751e7fd;
     text-decoration: none;
 }
 
 a:hover {
-    color:aquamarine;
+    color:rgb(70, 156, 226);
     border-bottom: 1px dotted;
+}
+
+/*-- Styling Nav --*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #3751e7fd; 
+    padding: 2em 0;
+    font-size: 0.75rem;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: upper-case;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: #f7f7f7
+}
+
+nav a:hover {
+    border-bottom:none;
+    color:rgb(70, 156, 226);
+    transition: all 0.3s ease-in-out
+}
+
+hr{
+    margin: 100px 0;
+    height: 1px;
+    background-color:#3751e7fd; 
+    color: #3751e7fd;
+    border: 0 none;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 4em 0 3em;
 }
