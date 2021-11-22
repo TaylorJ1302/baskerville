@@ -53,3 +53,12 @@ h1{
 h1, h2 {
     color: #760071
 }
+
+p {
+    color: #333
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 3em 0 1em 0
+}
