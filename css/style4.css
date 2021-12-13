@@ -29,6 +29,12 @@ section, header {
     padding: 1em;
 }
 
+.gridimage{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+
 
 
 /*-- Styling Typography --*/
@@ -38,7 +44,7 @@ h1, h2, blockquote {
 }
 
 p {
-    color: #f7f7f7
+    color: #f7f7f7;
     font-family: mrs-eaves, serif;
     margin-top: 2em;
 }
